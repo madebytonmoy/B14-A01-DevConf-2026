@@ -49,3 +49,47 @@ nav ul li a{
 nav ul li a:hover{
     color: #000;
 }
+
+.hero{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0) 100%), url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.hero-content{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-heading h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 125px;
+}
+
+.hero-heading p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    max-width: 700px;
+    margin: 30px auto;
+    font-weight: 300;
+}
+
+.hero-heading-connect{
+    font-style: italic;
+}
+
+.hero-register-btn{
+    font-size: 20px;
+    padding: 20px 60px;
+    margin-bottom: 70px;
+}
+
