@@ -358,3 +358,70 @@ nav ul li a:hover{
 /* team plan end */
 
 /* plans section end */
+
+
+/* footer section starts */
+
+footer{
+    background-color: #0D1B2A;
+    padding: 50px 0;
+}
+.footer-logo-social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img{
+    width: 26px;
+    height: 26px;
+    margin: auto;
+}
+
+.footer-logo-text{
+    color: #dce1e7;
+    margin-left: 10px;
+    font-size: 14px;
+
+}
+
+footer .horizontal-line{
+    background-color: #FFFFFF66;
+    margin: 20px 0px;
+    
+}
+.social-links img{
+    width: 24px;
+    height: 24px;
+    margin-right: 2px;
+}
+
+.footer-copyright-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright-links p{
+    color: #FFFFFF66;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a{
+    color: #FFFFFF66;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* footer section end  */
