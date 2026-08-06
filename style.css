@@ -188,6 +188,16 @@ nav ul li a:hover{
     font-weight: 400;
 }
 
+.get-btn:hover{
+    background-color: #185ae7;
+    color: white;
+}
+
+.get-btn-outline:hover{
+    background-color: #2563EB;
+    color: white;
+}
+
 
 .plans-content{
     margin-top: 100px;
@@ -360,6 +370,121 @@ nav ul li a:hover{
 /* plans section end */
 
 
+
+/* ai hackathon section start */
+
+.ai-hackathon{
+    background-color: #F8F9FB;
+    padding: 100px 20px 130px;
+}
+
+.ai-hackathon-content{
+    display: grid;
+    grid-template-columns: 1fr 1.15fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.hackathon-eyebrow{
+    color: #7C93B5;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    margin-bottom: 18px;
+}
+
+.hackathon-intro h2{
+    color: #16283C;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+
+.hackathon-lead{
+    color: #6B7280;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
+    max-width: 420px;
+    margin-bottom: 16px;
+}
+
+.hackathon-meta{
+    color: #9CA3AF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-bottom: 34px;
+}
+
+.tracks-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.track{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: start;
+    background-color: white;
+    border: 1px solid #EDEFF3;
+    border-radius: 15px;
+    padding: 28px 32px;
+    transition: border-color 0.25s ease;
+}
+
+.track:hover{
+    border-color: #C7D6EE;
+}
+
+.track-number{
+    color: #A9BBD4;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding-top: 5px;
+}
+
+.track h3{
+    color: #16283C;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+}
+
+.track p{
+    color: #6B7280;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.hackathon-btn{
+    color: white;
+    background-color: #1D4ED8;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 17px 44px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.hackathon-btn:hover{
+    background-color: #2563EB;
+}
+
+/* ai hackathon section end */
+
+
+
 /* footer section starts */
 
 footer{
@@ -372,22 +497,9 @@ footer{
 }
 
 .footer-logo{
-    display: flex;
-    justify-content: space-between;
+    width: 120px;
 }
 
-.footer-logo img{
-    width: 26px;
-    height: 26px;
-    margin: auto;
-}
-
-.footer-logo-text{
-    color: #dce1e7;
-    margin-left: 10px;
-    font-size: 14px;
-
-}
 
 footer .horizontal-line{
     background-color: #FFFFFF66;
