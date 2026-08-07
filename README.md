@@ -1,0 +1,5 @@
+DevConf-2026
+
+Github Pages - https://madebytonmoy.github.io/B14-A01-DevConf-2026/
+
+Prompt : Act as a beginner-friendly frontend mentor. Generate only clean, semantic HTML5 and CSS with simple, well-commented code. Create an AI Hackathon section for my DevConf 2026 landing page that matches the existing colors and fonts. Use a two-column layout. On the left, include a label, heading, short description, event detail, and a "Register for Hackathon" button. On the right, add three hackathon track cards with a title, number, and short description. Keep the design clean, modern, and beginner-friendly.
